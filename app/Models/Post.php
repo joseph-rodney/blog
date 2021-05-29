@@ -3,7 +3,7 @@
 
 use Facade\FlareClient\Stacktrace\File;
 use Illuminate\Database\Eloquent\ModelNotFoundException;
-
+use Illuminate\Http\Request;
 
 class Post{
     
