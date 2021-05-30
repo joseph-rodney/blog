@@ -13,7 +13,7 @@
         <article>
             <?= $post; ?>
         </article>
-    <?php endforech; ?>
+    <?php endforeach; ?>
     
 </body>
 </html>
