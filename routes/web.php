@@ -15,7 +15,7 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
+Route::get('', function () {
     $posts = Post::all();
     return view('posts', [
         'posts' => Post::all()
