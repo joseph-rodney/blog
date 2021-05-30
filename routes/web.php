@@ -37,6 +37,6 @@ Route::get('about', function () {
     return view('about');
 });
 
-Route::get('/', function () {
+Route::get('/', function () { //keep in mind this as has not used the vc technique
     return view('welcome');
 });
