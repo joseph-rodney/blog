@@ -38,6 +38,7 @@
     <div class="container">
         <div class="content">
             <div class="title">Welcome</div>
+            <p> Welcome Everyone!</p>
         </div>
     </div>
 </body>
