@@ -10,13 +10,13 @@
 
     <!--bootstrap.css-->
     <link rel="stylesheet" href="/bootstrap/bootstrap.min.css"/>
-
     <!--fontawesome-->
-    <link href="/all.min.css" rel="stylesheet"/>
+    <link href="/all.css" rel="stylesheet"/>
     <link href="/fontawesome.min.css" rel="stylesheet"/>
-
     <!--app.css-->
-    <link rel="stylesheet" href="/public/app.css" type="text/css"/>
+    <link rel="stylesheet" href="/public/app.css"/>
+    <!--System-icon-->
+    <link rel="icon" href="/favicon.ico">
 
 </head>
 <body>
