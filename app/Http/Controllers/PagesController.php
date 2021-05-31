@@ -15,10 +15,10 @@ class PagesController extends Controller
     {
         $first = 'Rodney';
         $last = 'Kaneene';
-        $full = $first . " " . $last;
+        $fullname = $first . " " . $last;
         return view(
             'about'
-        )->with("fullname", $full);
+        )->with("fullname", $fullname);
     }
     public function getContact()
     {
