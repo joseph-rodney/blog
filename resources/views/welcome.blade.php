@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Ugacademy</title>
+    <title>Blog</title>
 
     <link href="https://fonts.googleapis.com/css?family=Lato:100" rel="stylesheet" type="text/css"/>
 
@@ -47,7 +47,7 @@
   <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="js/jquery 3.6.0.min.js"></script>
-    <!--<script src="js/popper.min.js"></script>-->
+    <script src="js/popper.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
 </body>
 </html>
