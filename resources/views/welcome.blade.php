@@ -8,6 +8,16 @@
 
     <link href="https://fonts.googleapis.com/css?family=Lato:100" rel="stylesheet" type="text/css"/>
 
+    <!--bootstrap.css-->
+    <link rel="stylesheet" href="../public/bootstrap/bootstrap.min.css" type="text/css"/>
+
+    <!--fontawesome-->
+    <link href="../public/all.min.css" rel="stylesheet" type="text/css"/>
+    <link href="../public/fontawesome.min.css" rel="stylesheet" type="text/css"/>
+
+    <!--app.css-->
+    <link rel="stylesheet" href="../public/app.css" type="text/css"/>
+
     <style>
         body{
             margin: 0;
