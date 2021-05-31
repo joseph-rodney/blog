@@ -7,7 +7,7 @@ class PagesController extends Controller
     public function getIndex()
     {
         return view(
-            'pages.welcome'
+            'welcome'
         );
     }
     public function getAbout()
@@ -16,13 +16,13 @@ class PagesController extends Controller
         $last = 'Kaneene';
         $full = $first . " " . $last;
         return view(
-            'pages.about'
+            'about'
         )->with("fullname", $full);
     }
     public function getContact()
     {
         return view(
-            'pages.contact'
+            'contact'
         );
     }
 }
