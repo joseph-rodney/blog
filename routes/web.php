@@ -38,5 +38,5 @@ Route::get('about', function () {
 });
 
 Route::get('/', function () { //keep in mind this as has not used the vmc technique
-    return view('posts');
+    return view('welcome');
 });
