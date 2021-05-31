@@ -29,9 +29,9 @@
                     <i class="fas fa-bars"></i>
                 </button>
                 <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="dropdownMenuButton">
-                    <li><a class="dropdown-item" href="#home">Home</a></li>
-                    <li><a class="dropdown-item" href="#about">About</a></li>
-                    <li><a class="dropdown-item" href="#services">Contact</a></li>
+                    <li><a class="dropdown-item" href="/welcome">Home</a></li>
+                    <li><a class="dropdown-item" href="/about">About</a></li>
+                    <li><a class="dropdown-item" href="/contact">Contact</a></li>
                 </ul>
             </div>
         </div>
