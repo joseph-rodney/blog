@@ -1,10 +1,9 @@
 body{
     background-color: white;
     color: #222;
-    max-width: 600px;
     margin: auto;
     margin-top: 3rem;
-    font-family: sans-serif;
+    font-family: ubuntu;
 }
 p{
     line-height: 1.6em;
@@ -13,4 +12,8 @@ article + article{
     border-top: 1px solid grey;
     margin-top: 3rem;
     padding-top: 3rem;
+}
+.contact-form{
+    max-width: 400px;
+    margin: auto;
 }
