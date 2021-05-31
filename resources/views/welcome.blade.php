@@ -23,7 +23,7 @@
     <!--Navbar start-->
     <nav class="navbar navbar-light fixed-top bg-light shadow-sm">
         <div class="container-lg">
-            <a class="navbar-brand text-danger fw-bold fs-4">Ugacademy</a>
+            <a class="navbar-brand text-danger fw-bold fs-4">Blog</a>
             <div class="dropdown">
                 <button class="btn btn-secndary btn-danger px-3" type="button" id="dropDownMenuButton" data-bs-toggle="dropdown" aria-expanded="false">
                     <i class="fas fa-bars"></i>
