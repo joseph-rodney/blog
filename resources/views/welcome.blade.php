@@ -9,17 +9,34 @@
     <link href="https://fonts.googleapis.com/css?family=Lato:100" rel="stylesheet" type="text/css"/>
 
     <!--bootstrap.css-->
-    <link rel="stylesheet" href="../public/bootstrap/bootstrap.min.css" type="text/css"/>
+    <link rel="stylesheet" href="/bootstrap/bootstrap.min.css"/>
 
     <!--fontawesome-->
-    <link href="../public/all.min.css" rel="stylesheet" type="text/css"/>
-    <link href="../public/fontawesome.min.css" rel="stylesheet" type="text/css"/>
+    <link href="/all.min.css" rel="stylesheet"/>
+    <link href="/fontawesome.min.css" rel="stylesheet"/>
 
     <!--app.css-->
-    <link rel="stylesheet" href="../public/app.css" type="text/css"/>
-    
+    <link rel="stylesheet" href="/public/app.css" type="text/css"/>
+
 </head>
 <body>
+    <!--Navbar start-->
+    <nav class="navbar navbar-light fixed-top bg-light shadow-sm">
+        <div class="container-lg">
+            <a class="navbar-brand text-danger fw-bold fs-4">Ugacademy</a>
+            <div class="dropdown">
+                <button class="btn btn-secndary btn-danger px-3" type="button" id="dropDownMenuButton" data-bs-toggle="dropdown" aria-expanded="false">
+                    <i class="fas fa-bars"></i>
+                </button>
+                <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="dropdownMenuButton">
+                    <li><a class="dropdown-item" href="#home">Home</a></li>
+                    <li><a class="dropdown-item" href="#about">About</a></li>
+                    <li><a class="dropdown-item" href="#services">Services</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!--Navbar end-->
     <div class="container">
         <div class="content">
             <div class="title">Welcome</div>
