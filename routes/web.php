@@ -43,4 +43,8 @@ Route::get('/', function () { //keep in mind this as has not used the vmc techni
     return view('welcome');
 });
 
+Route::get('task/create', 'TaskController@create');
+
+Route::post('task', 'TaskController@store');
+
 //Route::get('/', 'TasksController@index');
