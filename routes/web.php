@@ -47,4 +47,4 @@ Route::get('task/create', 'TaskController@create');
 
 Route::post('task', 'TaskController@store');
 
-//Route::get('/', 'TasksController@index');
+//Route::get('/', 'TaskController@index');
