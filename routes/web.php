@@ -38,9 +38,9 @@ Route::get('about', function () {
     return view('about');
 });
 
-/*Route::get('/', function () { //keep in mind this as has not used the vmc technique
+Route::get('/', function () { //keep in mind this as has not used the vmc technique
 
     return view('welcome');
-});*/
+});
 
-Route::get('/', 'TasksController@index');
+//Route::get('/', 'TasksController@index');
