@@ -1,7 +1,7 @@
 <?php
 
-use App\Models\Post;
-use App\Http\Controllers;
+use App\Http\Controllers\PagesController;
+use App\Http\Controllers\PostController;
 use Illuminate\Support\Facades\Route;
 
 
@@ -15,36 +15,14 @@ use Illuminate\Support\Facades\Route;
 | contains the "web" middleware group. Now create something great!
 |
 */
+Route::get('contact', [PagesController::class, 'getContact'])->name('Pages.getContact');
 
-Route::get('', function () {
-    $posts = Post::all();
-    return view('posts', [
-        'posts' => Post::all()
-    ]);
-});
+Route::get('about', [PagesController::class, 'getAbout'])->name('Pages.getAbout');
 
-Route::get('posts/{post}', function ($slug) {
+Route::get('/', [PagesController::class, 'getIndex'])->name('Pages.getindex');
 
-    return view('post', [
-        'post' => Post::find($slug)
-    ]);
-})->where('post', '[A-z_\-]+');
+// Route::resource('posts', [PostController::class]);
 
-Route::get('contact', function () {
-    return view('contact');
-});
 
-Route::get('about', function () {
-    return view('about');
-});
 
-Route::get('/', function () { //keep in mind this as has not used the vmc technique
 
-    return view('welcome');
-});
-
-Route::get('task/create', 'TaskController@create');
-
-Route::post('task', 'TaskController@store');
-
-//Route::get('/', 'TaskController@index');
