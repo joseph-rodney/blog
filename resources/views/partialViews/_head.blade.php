@@ -16,3 +16,5 @@
     <link rel="stylesheet" href="/app.css"/>
     {{-- System-icon --}}
     <link rel="icon" href="/favicon.ico">
+
+    @yield("stylesheets")

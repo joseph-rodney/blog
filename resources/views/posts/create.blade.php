@@ -2,13 +2,18 @@
 
 @section("title", "| Create New Post")
 
+@section("stylesheets")
+  {{-- parsely.css --}}
+  <link rel="stylesheet" href="css/parsely.css">
+@endsection
+
 @section("content")
 <div class="container">
     <div class="row">
         <div class="col-md-8 m-auto pt-5">
             <h1 class="text-center">Create New Posts</h1>
             <hr>
-            <form action="App\Http\Controllers\PostController@store " method="POST">
+            <form method="POST" action="{{ route("posts.store") }}">
                 @csrf
                 <div class="form-group">
                   <label for="title">Title</label>
@@ -29,4 +34,8 @@
         </div>
     </div>
 </div>
+@endsection
+
+@section("scripts")
+  <script src="/js/parsely.min.js"></script>
 @endsection

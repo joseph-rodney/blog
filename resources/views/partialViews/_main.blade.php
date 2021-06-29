@@ -13,5 +13,6 @@
     </div>
     
     @include("partialViews._javascript")
+    @yield("scripts")
 </body>
 </html>
