@@ -4,7 +4,7 @@
 
 @section("stylesheets")
   {{-- parsely.css --}}
-  <link rel="stylesheet" href="css/parsely.css">
+  <link rel="stylesheet" href="public/css/parsley.css">
 @endsection
 
 @section("content")
@@ -13,7 +13,7 @@
         <div class="col-md-8 m-auto pt-5">
             <h1 class="text-center">Create New Posts</h1>
             <hr>
-            <form method="POST" action="{{ route("posts.store") }}">
+            <form method="POST" action="{{ route("posts.store") }}" data-parsley-validate="">
                 @csrf
                 <div class="form-group">
                   <label for="title">Title</label>
@@ -37,5 +37,5 @@
 @endsection
 
 @section("scripts")
-  <script src="/js/parsely.min.js"></script>
+  <script src="/parsley.min.js"></script>
 @endsection
